@@ -8,6 +8,9 @@
 <title>E-Book Harry Potter</title>
 <script type="text/javascript" src="cordova.js"></script>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+ <link href="css/chui-android-3.8.10.css" rel="stylesheet" />
+    <script src="js/jquery-2.1.4.min-3.js"></script>
+    <script src="js/chui-3.8.10.js"> </script>
 </head>
 <body onload="onLoad()" onresize="onResize()">
 <script>
@@ -71,17 +74,71 @@ PDFViewer.open("1.pdf","sample.pdf", function (msg) {
 
    
 </script>
+ <nav>
+        <h1>
+  <center>  E Books Harry Potter  </center> 
+        </h1>
+		
+    </nav>
+
+
+<br><br>
+
 	<div id="fullpage">
-	<b><h2>	E Books Harry Potter</h2><b>
+	<br><br>
 		<br><br>
 				
+				
+				 <article>
+		 <section>
+  
+            <ul class="list">
+				
+            <li class="nav" onclick="window.location.href = 'images/common.html'" >
+                
+                <div>
+                  <h3>1</h3>
+                </div>
+             </li>
+           
+				  <li class="nav" onclick="window.location.href = 'images/technical.html'" >
+                
+                <div>
+                  <h3>2</h3>
+                </div></li>
+            <li class="nav" onclick="window.location.href = 'images/problem.html'" >
+                
+                <div>
+                  <h3>3</h3>
+                </div>
+             </li>  <li class="nav" onclick="window.location.href = 'images/communication.html'" >
+                
+                <div>
+                  <h3>4</h3>
+                </div>
+             </li>  <li class="nav" onclick="window.location.href = 'images/questionsask.html'" >
+                
+                <div>
+                  <h3>5</h3>
+                </div>
+             </li>
+				
+
+				
+            </ul>
+      
+    
+
+	</section>
+	
+	</article>
+							
  <h3>
  <b>
 Want to say something? <br>
 Rate and Review or Drop a suggestion Mail - pictodeveloper@gmail.com</b>
  
 </h3>
-	<!<embed src="http://webflax.in/1.pdf" width="480px" height="800px">
 		
 		
 		<br>
@@ -93,10 +150,52 @@ Rate and Review or Drop a suggestion Mail - pictodeveloper@gmail.com</b>
 		
 		
 		
-		
-		
 
 	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 <script>
+        $(function () {
+            var opts = {
+                tabs: 2,
+                icons: ["/Content/tabbar1test.png", "/Content/tabbar1test.png", "/Content/tabbar1test.png", "/Content/tabbar1test.png"],
+                labels: ["Share", "Exit"],
+                selected: 0
+            };
+            $.UITabbar(opts);
+        });
+
+    </script>
 </body>
 <body background="bg10.jpg">
 </html>
